@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ink text-bone font-sans antialiased;
+  }
+  ::selection {
+    @apply bg-ember text-ink;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-sm uppercase tracking-[0.2em] text-mute transition-colors hover:text-bone;
+  }
+  .nav-link[aria-current='page'] {
+    @apply text-bone;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center border border-bone/80 px-6 py-3 text-xs font-semibold uppercase tracking-[0.2em] transition hover:bg-bone hover:text-ink;
+  }
+}
