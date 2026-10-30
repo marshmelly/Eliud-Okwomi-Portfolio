@@ -18,7 +18,6 @@ import Image18 from './Public/artworks/cover1.jpg'
 import Image19 from './Public/artworks/learners visit farmer_2.jpg'
 import Image20 from './Public/artworks/bearattack.jpg'
 import Image21 from './Public/artworks/panel 4.jpg'
-import Image22 from './Public/artworks/IWTL_illustration.jpg'
 import Image23 from './Public/artworks/MK pg1.jpg'
 import Image24 from './Public/artworks/panel 2.jpg'
 import Image25 from './Public/artworks/pg1.jpg'
@@ -137,7 +136,6 @@ export const works = [
   {id: 19, src: Image19},
   {id: 20, src: Image20},
   {id: 21, src: Image21},
-  {id: 22, src: Image22},
   {id: 23, src: Image23},
   {id: 24, src: Image24},
   {id: 25, src: Image25},
