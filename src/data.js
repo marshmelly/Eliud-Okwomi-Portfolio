@@ -11,7 +11,6 @@ import Image10 from './Public/artworks/content.jpg'
 import Image11 from './Public/artworks/DJB pg1.jpg'
 import Image12 from './Public/artworks/k-bian taicoon.jpg'
 import Image13 from './Public/artworks/bazoo uji blend mockup front.jpg'
-import Image14 from './Public/artworks/bazoo uji blend mockup back.jpg'
 import Image15 from './Public/artworks/odi dancer.jpg'
 import Image16 from './Public/artworks/BG1.jpg'
 import Image17 from './Public/artworks/004.jpg'
@@ -19,7 +18,7 @@ import Image18 from './Public/artworks/cover1.jpg'
 import Image19 from './Public/artworks/learners visit farmer_2.jpg'
 import Image20 from './Public/artworks/bearattack.jpg'
 import Image21 from './Public/artworks/panel 4.jpg'
-import Image22 from './Public/artworks/IWTL illustration.jpg'
+import Image22 from './Public/artworks/IWTL_illustration.jpg'
 import Image23 from './Public/artworks/MK pg1.jpg'
 import Image24 from './Public/artworks/panel 2.jpg'
 import Image25 from './Public/artworks/pg1.jpg'
@@ -51,6 +50,8 @@ import Image30 from './Public/artworks/sisters_fighting.jpg'
 import Image54 from './Public/artworks/MK3.jpg'
 import Image55 from './Public/artworks/MK4.jpg'
 import Image56 from './Public/artworks/pg04.png'
+
+
 /* =====================================================================
    EDIT YOUR CONTENT HERE
    Almost everything you'll want to change on the site lives in this file:
