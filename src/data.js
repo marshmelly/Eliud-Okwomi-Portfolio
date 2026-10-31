@@ -11,6 +11,7 @@ import Image10 from './Public/artworks/content.jpg'
 import Image11 from './Public/artworks/DJB pg1.jpg'
 import Image12 from './Public/artworks/k-bian taicoon.jpg'
 import Image13 from './Public/artworks/bazoo uji blend mockup front.jpg'
+import Image14 from './Public/artworks/tkc.jpg'
 import Image15 from './Public/artworks/odi dancer.jpg'
 import Image16 from './Public/artworks/BG1.jpg'
 import Image17 from './Public/artworks/004.jpg'
@@ -166,6 +167,7 @@ export const works = [
   {id: 50, src: Image54},
   {id: 51, src: Image55},
   {id: 52, src: Image56},
+  {id: 53, src: Image14},
     
 ]
 
