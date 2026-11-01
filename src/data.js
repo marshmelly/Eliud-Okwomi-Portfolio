@@ -77,7 +77,7 @@ export const artist = {
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/eliud-okwomi-970193277' },
     { label: 'Behance', href: 'https://behance.net/eliudokwomi' },
    
-  ],gi
+  ],
 
   // About page text: each string is one paragraph. Add or remove paragraphs freely.
   bio: [
