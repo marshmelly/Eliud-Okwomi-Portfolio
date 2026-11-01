@@ -54,7 +54,7 @@ function Lightbox({ index, onClose, onMove }) {
         </button>
       </div>
 
-      <div className="px-5 py-5 text-center md:px-8">
+      <div className="px-0 py-0 text-center md:px-8">
         <p className="font-display text-xl">{work.title}</p>
         <p className="mt-1 text-sm text-mute">
           {work.medium} · {work.year}
@@ -69,15 +69,15 @@ export default function Work() {
   const move = useCallback((d) => setActive((i) => (i === null ? i : (i + d + works.length) % works.length)), [])
 
   return (
-    <main className="mx-auto max-w-7xl px-5 pt-14 md:px-8">
+    <main className="w-full px-0 pt-14">
       <section className="mb-14 max-w-2xl animate-fadeUp">
-          <h1 className="mt-4 font-display text-4xl leading-tight md:text-6xl">{artist.name}</h1>
+          <h1 className="mt-4 ml-7 font-display text-4xl leading-tight md:text-6xl">{artist.name}</h1>
         {/* INTRO TEXT: edit the sentence after {artist.tagline}. to change the line under the page title. */}
-        <p className="mt-4 text-mute">{artist.tagline}. </p>
+        <p className="mt-4 ml-7 text-mute">{artist.tagline}. </p>
       </section>
 
       {/* GALLERY: the pieces come from `works` in src/data.js. Add images there, not here. */}
-      <div className="columns-1 gap-0 sm:columns-2 lg:columns-3">
+      <div className="columns-1 gap-0 sm:columns-2 lg:columns-4">
         {works.map((w, i) => (
           <button
             key={w.id}

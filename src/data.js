@@ -50,6 +50,7 @@ import Image30 from './Public/artworks/sisters_fighting.jpg'
 import Image54 from './Public/artworks/MK3.jpg'
 import Image55 from './Public/artworks/MK4.jpg'
 import Image56 from './Public/artworks/pg04.png'
+import Image57 from './Public/artworks/animation BGb.jpg'
 
 
 /* =====================================================================
@@ -69,12 +70,14 @@ export const artist = {
   // Social links: change the href to the real profile URLs.
   // Delete a line to remove a link, or copy a line to add one.
   socials: [
-    { label: 'Instagram', href: 'https://instagram.com/' },
-    { label: 'Facebook', href: 'https://facebook.com/' },
-    { label: 'X', href: 'https://x.com/' },
-    { label: 'Behance', href: 'https://behance.net/' },
+    { label: 'Instagram', href: 'https://www.instagram.com/el_art.ist' },
+    { label: 'Facebook', href: 'https://web.facebook.com/profile.php?id=100063657949801' },
+    { label: 'X', href: 'https://x.com/el_okwomi' },
+    { label: 'Tiktok', href: 'https://tiktok.com/@el03049'},
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/eliud-okwomi-970193277' },
+    { label: 'Behance', href: 'https://behance.net/eliudokwomi' },
    
-  ],
+  ],gi
 
   // About page text: each string is one paragraph. Add or remove paragraphs freely.
   bio: [
@@ -168,7 +171,7 @@ export const works = [
   {id: 51, src: Image55},
   {id: 52, src: Image56},
   {id: 53, src: Image14},
-    
+  {id: 54, src: Image57},  
 ]
 
 export const rates = [
@@ -182,6 +185,7 @@ export const rates = [
       { name: 'Comic Book Page', price: '$123 per piece' },
       { name: 'Comic Book Cover Art', price: '$154 per piece' },
       { name: 'Concept Art', price: '$50 per piece' },
+      { name: 'Graphic Recording', price: '$656 per day' },
       { name: 'Medical Illustration(Greyscale)', price: '$150 per piece' },
       { name: 'Medical Illustration(Coloured)', price: '$300 per piece' },
       { name: 'Medical Illustration(3D Render)', price: '$800 per piece' },
@@ -193,9 +197,9 @@ export const rates = [
     featured: true,
     blurb: 'Larger or custom pieces. Pricing depends on size, medium and detail.',
     items: [
-      { name: 'White board', price: 'From $2500 per minute' },
-      { name: '2D', price: 'From $3000 per minute' },
-      { name: '3D',  price: '$4500 per minute' },
+      { name: 'White board Animation', price: '$2500 per minute' },
+      { name: '2D Animation', price: '$3000 per minute' },
+      { name: '3D Animation',  price: '$4500 per minute' },
       { name: 'Storyboards / animatics',  price: '$500 per minute' },
     ],
   },
@@ -223,5 +227,5 @@ export const rateNotes = [
   'Every project includes two rounds of revisions.',
   'Typical turnaround is 1–3 weeks depending on size. Rush work is available on request.',
   'Prices are in USD and exclude any shipping for physical pieces.',
-  'Personal-use licence is included. Commercial use is an add-on (see Extras).',
+  'Personal-use licence is included. Commercial use is an add-on.',
 ]
